@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+    this.route('editor');
+    this.route('concurrency');
 });
 
 export default Router;
